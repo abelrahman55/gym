@@ -1,0 +1,20 @@
+export {default as logo} from '../image/logo.png';
+export {default as heroImage} from '../image/hero_image.png';
+export {default as heroImageBG} from '../image/hero_image_back.png';
+export {default as heart}from '../image/heart.png';
+export {default as Calories} from '../image/calories.png';
+export {default as Rightarrow} from '../image/rightArrow.png';
+export {default as Leftarrow} from '../image/leftArrow.png'
+export {default as OnlyImage} from '../image/image1.png';
+export {default as TopImage} from '../image/image2.png'
+export {default as BotLeft} from '../image/image3.png'
+export {default as BotRight} from '../image/image4.png'
+export {default as BenImage} from '../image/tick.png';
+export {default as par2} from '../image/adidas.png'
+export {default as par1} from '../image/nb.png'
+export {default as par3} from '../image/nike.png'
+export {default as whitetick} from '../image/whiteTick.png'
+export {default as github} from '../image/github.png'
+export {default as instagram} from '../image/instagram.png';
+export {default as linkedin} from '../image/linkedin.png';
+export {default as bars} from '../image/bars.png';

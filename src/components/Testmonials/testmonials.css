@@ -1,0 +1,115 @@
+.testmonials{
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+.left-testmonials{
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.left-testmonials >h3{
+color: var(--orange);
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.left-testmonials >span{
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.left-testmonials >span:last-of-type{
+  color: white;
+}
+.left-testmonials >p{
+  color: white;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 1.1px;
+  word-spacing: 6px;
+}
+.left-testmonials >h6{
+color: white;
+font-size: 18px;
+font-weight: normal;
+}
+.left-testmonials >h6>span:first-child{
+  color: var(--orange);
+}
+.right-testmonials{
+  flex: 1 1;
+  position: relative;
+}
+.right-testmonials>img{
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}
+.right-testmonials>:nth-child(1){
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid var(--orange);
+  right: 9rem;
+  top: 0.9rem;
+  background-color: transparent;
+}
+.right-testmonials>:nth-child(2){
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  background: var(--planCard);
+  top: 4rem;
+  right: 7rem;
+}
+.arrows{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  bottom: 6rem;
+  left: 3rem;
+}
+.arrows img{
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width:767px) {
+  .testmonials{
+    flex-direction: column;
+  }
+  .left-testmonials,
+  .right-testmonials{
+    font-size: xx-large;
+  }
+  .right-testmonials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .right-testmonials>div{
+    position: relative;
+    display: none;
+  }
+  .right-testmonials>img{
+    top: 0;
+    right: 0;
+    position: relative;
+    align-self: center;
+  }
+  .right-testmonials>:last-child{
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,82 @@
+.plans{
+  padding: 2rem;
+  position: relative;
+}
+.plans-blur-1{
+  width: 32rem;
+  left: 0rem;
+  height: 23rem;
+  top: 6rem;
+}
+.plans-blur-2{
+  width: 32rem;
+  right: 0rem;
+  height: 23rem;
+  top: 6rem;
+}
+.plans .header{
+display: flex;
+justify-content: space-between;
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+align-items: center;
+font-style: italic;
+margin-bottom: 60px;
+}
+.plans-cards{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.plans-cards .plan{
+  background: var(--caloryCard);
+  color: white;
+  padding: 1.5rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.plan>:nth-child(1){
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+.plan .price{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.plan .plan-bene {
+  margin-top: 10px;
+}
+.plan .plan-bene .feature{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.plan .plan-bene .feature img{
+  width: 1rem;
+  height: 1rem;
+}
+.see{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.see img{
+  width: 1rem;
+}
+.plan>button{
+  padding: 8px;
+  font-size: 1rem;
+  border: none;
+}
+.plan:nth-child(2){
+  background: var(--planCard);
+  transform: scale(1.2);
+}
